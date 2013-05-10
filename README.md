@@ -1,3 +1,3 @@
-FMDB-SQLite_Demo
+FMDB_SQLite_Demo
 ================
-FMDB-SQLite_Demo
+FMDB_SQLite_Demo
