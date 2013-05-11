@@ -68,33 +68,65 @@
                                     <action selector="SearchFromDatabase:" destination="2" eventType="touchUpInside" id="Wnc-Xc-EGH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbl-hu-ZqH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="IDn-JQ-sdE"/>
+                                    <constraint firstAttribute="height" constant="21" id="jJ7-3Q-81R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MC1-dB-THE">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="clear">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ClearTextField:" destination="2" eventType="touchUpInside" id="4PV-cE-Zs0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fL2-fb-3Hb" firstAttribute="trailing" secondItem="sJO-bW-ygz" secondAttribute="trailing" type="default" id="06t-hy-eO9"/>
                             <constraint firstItem="kBh-B4-u05" firstAttribute="leading" secondItem="cPd-8k-2ke" secondAttribute="leading" type="default" id="0Kn-gy-W9e"/>
-                            <constraint firstItem="zJs-2f-Wka" firstAttribute="leading" secondItem="OIw-BW-5CU" secondAttribute="leading" type="default" id="1NZ-mL-MvI"/>
                             <constraint firstItem="kBh-B4-u05" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="142" id="2zG-qn-qpa"/>
-                            <constraint firstItem="Dzf-Ct-me6" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="69" id="AX3-bW-t4x"/>
+                            <constraint firstItem="zJs-2f-Wka" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="5TE-qc-qAJ"/>
+                            <constraint firstItem="fL2-fb-3Hb" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="5yy-LU-H9N"/>
+                            <constraint firstAttribute="trailing" secondItem="MC1-dB-THE" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="8jj-sB-4ly"/>
+                            <constraint firstItem="MC1-dB-THE" firstAttribute="baseline" secondItem="fL2-fb-3Hb" secondAttribute="baseline" type="default" id="95j-F5-0vu"/>
+                            <constraint firstItem="Tbl-hu-ZqH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="210" id="9a3-xL-I9E"/>
                             <constraint firstItem="sJO-bW-ygz" firstAttribute="leading" secondItem="cPd-8k-2ke" secondAttribute="leading" type="default" id="Aej-vi-PWn"/>
-                            <constraint firstItem="zJs-2f-Wka" firstAttribute="leading" secondItem="Dzf-Ct-me6" secondAttribute="leading" type="default" id="Ia5-Fv-heY"/>
                             <constraint firstItem="Dzf-Ct-me6" firstAttribute="top" secondItem="3" secondAttribute="top" constant="177" id="KCY-o3-myU"/>
                             <constraint firstItem="kBh-B4-u05" firstAttribute="trailing" secondItem="cPd-8k-2ke" secondAttribute="trailing" type="default" id="KQX-kk-8Zj"/>
                             <constraint firstItem="kBh-B4-u05" firstAttribute="top" secondItem="3" secondAttribute="top" constant="66" id="LaS-GE-Tt2"/>
                             <constraint firstItem="CEP-YZ-z9u" firstAttribute="baseline" secondItem="kBh-B4-u05" secondAttribute="baseline" type="default" id="NOW-Si-rJ1"/>
+                            <constraint firstItem="fL2-fb-3Hb" firstAttribute="centerX" secondItem="Tbl-hu-ZqH" secondAttribute="centerX" type="default" id="Ws2-0w-JM4"/>
+                            <constraint firstItem="OIw-BW-5CU" firstAttribute="leading" secondItem="CEP-YZ-z9u" secondAttribute="leading" type="default" id="WyE-yv-U6c"/>
+                            <constraint firstItem="OIw-BW-5CU" firstAttribute="leading" secondItem="Dzf-Ct-me6" secondAttribute="leading" type="default" id="YVE-AD-Sc7"/>
                             <constraint firstItem="sJO-bW-ygz" firstAttribute="trailing" secondItem="cPd-8k-2ke" secondAttribute="trailing" type="default" id="ZJA-bt-7hd"/>
+                            <constraint firstItem="CEP-YZ-z9u" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="69" id="a8Q-lh-S18"/>
+                            <constraint firstItem="zJs-2f-Wka" firstAttribute="top" secondItem="Tbl-hu-ZqH" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="d44-1c-Tn0"/>
                             <constraint firstItem="cPd-8k-2ke" firstAttribute="top" secondItem="3" secondAttribute="top" constant="122" id="evD-49-zpM"/>
                             <constraint firstItem="sJO-bW-ygz" firstAttribute="top" secondItem="3" secondAttribute="top" constant="173" id="g2s-UC-GPn"/>
-                            <constraint firstItem="zJs-2f-Wka" firstAttribute="top" secondItem="3" secondAttribute="top" constant="239" id="oXT-Ug-RTU"/>
-                            <constraint firstItem="zJs-2f-Wka" firstAttribute="leading" secondItem="CEP-YZ-z9u" secondAttribute="leading" type="default" id="sCB-dO-QXc"/>
                             <constraint firstItem="fL2-fb-3Hb" firstAttribute="baseline" secondItem="zJs-2f-Wka" secondAttribute="baseline" type="default" id="skZ-T1-mBX"/>
                             <constraint firstItem="OIw-BW-5CU" firstAttribute="top" secondItem="3" secondAttribute="top" constant="126" id="tvz-PJ-FcV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="address" destination="cPd-8k-2ke" id="Jmb-cT-Wna"/>
+                        <outlet property="name" destination="kBh-B4-u05" id="1Ns-1k-9d9"/>
+                        <outlet property="phone" destination="sJO-bW-ygz" id="6UC-b4-jaO"/>
+                        <outlet property="status" destination="Tbl-hu-ZqH" id="2Tv-X6-zjf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="177" y="2"/>
+            <point key="canvasLocation" x="23" y="23"/>
         </scene>
     </scenes>
     <classes>
@@ -104,8 +136,13 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
+                <relationship kind="action" name="ClearTextField:"/>
                 <relationship kind="action" name="SaveToDataBase:"/>
                 <relationship kind="action" name="SearchFromDatabase:"/>
+                <relationship kind="outlet" name="address" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="name" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="phone" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="status" candidateClass="UILabel"/>
             </relationships>
         </class>
     </classes>
